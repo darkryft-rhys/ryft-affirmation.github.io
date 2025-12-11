@@ -1,0 +1,68 @@
+/* ===============================
+   CSS RESET AND BASIC SETUP
+   =============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+}
+
+/* ===============================
+   GOOGLE FONTS INTEGRATION
+   =============================== */
+body {
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.6;
+    background-color: #000;
+}
+
+/* ===============================
+   MAIN CONTAINER SETUP
+   =============================== */
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    /* Add your background styling here */
+}
+
+.post-content {
+    text-align: center;
+    max-width: 600px;
+    /* Add your content styling here */
+}
+
+/* ===============================
+   TYPOGRAPHY STYLES
+   =============================== */
+.main-heading {
+    font-family: 'Libre Baskerville', serif;
+    /* Add heading styles here */
+}
+
+.quote {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    /* Add quote styles here */
+}
+
+.attribution {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 10px;
+    /* Add attribution styles here */
+}
+
+/* ===============================
+   IMAGE STYLES
+   =============================== */
+img {
+    box-shadow: 0px 0px 150px #FFF;
+}
+
+/* 
+Ready to start adding your custom styles!
+Follow the main project guide for specific styling instructions.
+*/
